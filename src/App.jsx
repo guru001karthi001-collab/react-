@@ -366,7 +366,7 @@ function App() {
 
           {/* USER TABLE */}
           <div className="overflow-x-auto rounded-md border border-gray-200">
-            <table className="w-full min-w-[900px] border-collapse text-left">
+            <table className="w-full min-w-225 border-collapse text-left">
 
               {/* TABLE HEADER */}
               <thead className="bg-[#f8f8f8]">

@@ -306,7 +306,7 @@ function App() {
 
       {/* LEFT SIDEBAR */}
 
-      <aside className="fixed left-0 top-0 z-20 flex h-screen w-[176px] flex-col border-r border-gray-100 bg-[#f6f6f6] px-4 py-5">
+      <aside className="fixed left-0 top-0 z-20 flex h-screen w-44 flex-col border-r border-gray-100 bg-[#f6f6f6] px-4 py-5">
 
         {/* Logo intentionally omitted */}
 
@@ -371,7 +371,7 @@ function App() {
 
       {/* MAIN CONTENT */}
 
-      <main className="ml-[176px] min-h-screen min-w-0 flex-1 bg-white">
+      <main className="ml-44 min-h-screen min-w-0 flex-1 bg-white">
 
         {/* TOP NAVBAR */}
 
@@ -577,7 +577,7 @@ function App() {
 
               <div className="w-full overflow-x-auto rounded-lg border border-gray-200">
 
-                <table className="w-full min-w-[900px] border-collapse text-left">
+                <table className="w-full min-w-225 border-collapse text-left">
 
                   <thead className="bg-[#fafafa]">
 
@@ -642,7 +642,7 @@ function App() {
 
                         <tr
                           key={user.id}
-                          className="h-[52px] border-b border-gray-100 last:border-b-0 hover:bg-gray-50/70"
+                          className="h-13 border-b border-gray-100 last:border-b-0 hover:bg-gray-50/70"
                         >
 
                           {/* CHECKBOX */}
@@ -748,7 +748,7 @@ function App() {
                                 role="switch"
                                 aria-checked={user.access}
                                 aria-label={`Toggle access for ${user.name}`}
-                                className={`relative h-3.5 w-[23px] rounded-full transition-colors ${
+                                className={`relative h-3.5 w-5.75 rounded-full transition-colors ${
                                   user.access
                                     ? "bg-emerald-700"
                                     : "bg-gray-200"
@@ -758,7 +758,7 @@ function App() {
                                 <span
                                   className={`absolute top-0.5 h-2.5 w-2.5 rounded-full bg-white transition-all ${
                                     user.access
-                                      ? "left-[12px]"
+                                      ? "left-3"
                                       : "left-0.5"
                                   }`}
                                 />
